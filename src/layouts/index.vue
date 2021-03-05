@@ -1,6 +1,6 @@
 <template>
   <div class="app-wrapper">
-    <div class="sidebar-container"></div>
+    <Sidebar class="sidebar-container" />
     <div class="main-container">
       <Navbar />
       <AppMain />
@@ -11,6 +11,7 @@
 <script setup>
 import AppMain from './components/AppMain.vue'
 import Navbar from './components/Navbar.vue'
+import Sidebar from './components/Sidebar/Index.vue'
 </script>
 
 <style lang="stylus" scoped>
